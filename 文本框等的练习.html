@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="1.php"  method="post" name="qq">
+        用户名：<input type="text" name="uername" value="例：李明" mexlegth="10"><br><br>
+        密码：<input type="password" name="pwd" maxlength="8"><br><br>
+        <!-- 单选框 -->
+        性别：<input type="radio" name="gender" >男 <input type="radio" name="gender">女<br><br>
+        <!-- 复选框 -->
+        爱好：<input type="checkbox">吸烟 <input type="checkbox">喝酒 <input type="checkbox">烫头
+        <!-- 文本域 -->
+        个人简历<br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        <!-- 下拉列表 -->
+        出生日期：
+        <select >
+            <option value="">1993</option>
+            <option value="">1994</option>
+            <option value="">1995</option>
+            <option value="">1996</option>
+        </select>
+        <select >
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option> 
+        </select><br><br>
+        <!-- label标签  点昵称光标自动到文本框内-->
+        <label for="mima">密码：<input type="password" name="pwd" maxlength="8" id="mima"></label><br><br>
+        <label>密码：<input type="password" name="pwd" maxlength="8" ></label><br><br>
+        <input type="submit" value="立即注册"><br><br>
+        <input type="button" value="普通按钮"><br></br>
+        <input type="image" src="images/up.jpg"><br><br>
+        <input type="reset">
+
+    </form>
+</body>
+</html>
